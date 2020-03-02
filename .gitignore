@@ -10,3 +10,5 @@ Common/src/
 
 # Project exclude paths
 /out/
+!/Day2.iml
+/Learn Java.iml/
