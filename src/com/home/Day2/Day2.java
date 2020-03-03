@@ -13,8 +13,8 @@ public class Day2 {
         char[] charArray = {'a', 'b', 'c'};
         String str3 = new String(charArray);
 
-        System.out.println(str1.equals(str2));//true
-        System.out.println(str1.equals(str3));//false
-        System.out.println(str3.equals(str2));//false
+        System.out.println(str1 == str2);//true
+        System.out.println(str1 == str3);//false
+        System.out.println(str3 == str2);//false
     }
 }
