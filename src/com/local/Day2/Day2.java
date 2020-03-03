@@ -80,13 +80,27 @@ public class Day2 {
         System.out.println("=====================================");*/
 
         //字符串切割
-        //注意事项，split（）不能对"."进行分割
         String st = "aaa,bbb,ccc";
         String[] arrayQieGe = st.split(",");
         for (int i = 0; i < arrayQieGe.length; i++) {
             System.out.println(arrayQieGe[i]);
         }
         System.out.println("=====================================");
+
+        ////注意事项，split（）不能直接对"."进行分割， 要在前面加"\\"
+        String st1 = "aaa.bbb.ccc";
+        String[] arrayQieGe1 = st1.split(".");
+        System.out.println("数组的长度为：" + arrayQieGe1.length);//0
+
+        System.out.println("=====================================");
+        //注意事项，split（）不能直接对"."进行分割， 要在前面加"\\"
+        String st2 = "aaa.bbb.ccc";
+        String[] arrayQieGe2 = st2.split("\\.");
+        System.out.println("数组的长度为：" + arrayQieGe2.length);//3
+        for (int j = 0; j < arrayQieGe2.length; j++) {
+            System.out.println(arrayQieGe2[j]);
+        }
+
 
     }
 }
