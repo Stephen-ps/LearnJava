@@ -19,7 +19,7 @@ public class Day1 {
      */
     public static void main(String[] args) {
 
-        //practice1.建立Scanner对象, 用户输入方法的练习 （使用了Student的类）
+        // practice1.建立Scanner对象, 用户输入方法的练习 （使用了Student的类）
         Scanner userInput = new Scanner(System.in);
 
         //用户输入的名字
