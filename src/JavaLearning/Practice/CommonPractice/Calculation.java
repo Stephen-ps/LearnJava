@@ -1,6 +1,6 @@
-package com.local.Day1;
+package JavaLearning.Practice.CommonPractice;
 
-public class practice5 {
+public class Calculation {
 
     /**
      * @param a is one of the number for calculation

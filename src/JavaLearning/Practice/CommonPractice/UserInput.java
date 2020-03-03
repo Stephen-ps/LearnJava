@@ -1,8 +1,8 @@
-package com.local.Day1;
+package JavaLearning.Practice.CommonPractice;
 
 import java.util.Scanner;
 
-public class practice4 {
+public class UserInput {
     public static void methodParam(Scanner sc) {
         Scanner sca = new Scanner(System.in);
         int input = sca.nextInt();

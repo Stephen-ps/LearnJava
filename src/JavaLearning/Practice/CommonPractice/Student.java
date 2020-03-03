@@ -1,11 +1,11 @@
-package com.local.Day1;
+package JavaLearning.Practice.CommonPractice;
 
-public class practice1 {
+public class Student {
     private String name;
     private int age;
     private boolean male;
 
-    public practice1(String name, int age, boolean male) {
+    public Student(String name, int age, boolean male) {
         this.name = name;
         this.age = age;
         this.male = male;

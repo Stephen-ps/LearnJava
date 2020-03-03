@@ -1,16 +1,14 @@
-package com.local.Day1;
+package JavaLearning.Practice.CommonPractice;
 
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-import static com.local.Day1.practice4.methodParam;
-
 
 /**
  * this is for class main;
  */
-public class Day1 {
+public class Main {
 
     /**
      * this is just for learning java;
@@ -32,7 +30,7 @@ public class Day1 {
         boolean gender = userInput.nextBoolean();
 
         //构造器生成
-        practice1 pra1 = new practice1(name, age, gender);
+        Student pra1 = new Student(name, age, gender);
 
         //输出结果
         System.out.println("姓名：" + pra1.getName() + '\n' + "年龄: " + pra1.getAge() + '\n' + "性别: " + pra1.isMale());
@@ -80,11 +78,11 @@ public class Day1 {
             }
 
             //practice4.使用匿名对象进行传参
-            methodParam(new Scanner(System.in));
+            UserInput.methodParam(new Scanner(System.in));
 
             //practice5.对使用method的练习
             //这里创建一个测试———类————Calculation的对象
-            practice5 cal = new practice5();
+            Calculation cal = new Calculation();
             //尝试打印1+....+100的值
             System.out.println(cal.isOne());
             //调用方法，打印10次——————“次数”

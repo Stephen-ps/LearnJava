@@ -1,11 +1,8 @@
-package com.local.Day2;
-
-import java.lang.reflect.Array;
-import java.util.Scanner;
+package JavaLearning.Practice.StringPractice;
 
 
 //主要是关于字符串的学习
-public class Day2AboutString {
+public class Main {
 
     /**
      * @param args is not used
