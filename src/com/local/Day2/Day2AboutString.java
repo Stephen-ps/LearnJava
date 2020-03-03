@@ -100,5 +100,7 @@ public class Day2AboutString {
         for (String value: arrayQieGe2) {
             System.out.println(value);
         }
+
+
     }
 }
