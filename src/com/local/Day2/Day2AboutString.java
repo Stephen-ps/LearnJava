@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 //主要是关于字符串的学习
-public class Day2 {
+public class Day2AboutString {
 
     /**
      * @param args is not used
