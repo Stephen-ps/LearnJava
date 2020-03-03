@@ -5,9 +5,6 @@ public class practice1 {
     private int age;
     private boolean male;
 
-    public practice1() {
-    }
-
     public practice1(String name, int age, boolean male) {
         this.name = name;
         this.age = age;
@@ -37,5 +34,4 @@ public class practice1 {
     public void setMale(boolean male) {
         this.male = male;
     }
-
 }
