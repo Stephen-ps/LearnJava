@@ -1,5 +1,10 @@
 package com.local.Day2;
 
+import java.lang.reflect.Array;
+import java.util.Scanner;
+
+
+//主要是关于字符串的学习
 public class Day2 {
 
     /**
@@ -23,8 +28,10 @@ public class Day2 {
         String str5 = "abc";
         char[] charArray2 = {'A', 'B', 'B'};
         String str6 = new String(charArray2);
-        //结果
+
         System.out.println("=====================================");
+
+        //打印结果
         System.out.println(str4.equals(str5));//true
         System.out.println(str4.equals(str6));//false
         System.out.println(str5.equals(str6));//false
@@ -32,9 +39,57 @@ public class Day2 {
         //equalsIgnoreCase()不区分大小写。
         String a = "Java";
         String b = "java";
+
         System.out.println("=====================================");
+        //打印结果
         System.out.println(a.equals(b));//false
         System.out.println(a.equalsIgnoreCase(b));//true
+
+        System.out.println("=====================================");
+
+        //查找字符串第一次出现的位置
+        String str = "Hello world";
+        int findIndex = str.indexOf("H");
+        System.out.println("第一次出现的索引值：index：" + findIndex);
+
+        //使用substring的练习
+        String s = "HelloWord";
+        //从第五号元素开始截取
+        String s1 = s.substring(5);
+        //从第四号元素开始截取一直到第7号元素；
+        String s2 = s.substring(4, 7);
+
+        System.out.println("=====================================");
+        //打印结果
+        System.out.println(s1);
+        System.out.println(s2);
+
+        System.out.println("=====================================");
+
+        //词条过滤
+       /* Scanner scan = new Scanner(System.in);
+        String guoLu = scan.next();
+
+        //设置输入的替换词条
+        guoLu = guoLu.replace("草泥马", "***");
+        guoLu = guoLu.replace("傻逼", "***");
+        guoLu = guoLu.replace("操你妈", "***");
+        guoLu = guoLu.replace("你爷爷的", "***");
+        guoLu = guoLu.replace("操你", "***");
+        System.out.println(guoLu);
+        System.out.println("=====================================");*/
+
+        //字符串切割
+        //注意事项，split（）不能对"."进行分割
+        String st = "aaa,bbb,ccc";
+        String[] arrayQieGe = st.split(",");
+        for (int i = 0; i < arrayQieGe.length; i++) {
+            System.out.println(arrayQieGe[i]);
+        }
+        System.out.println("=====================================");
+
+
+
 
     }
 }
