@@ -1,10 +1,10 @@
-package com.home;
+package com.home.Day1;
 
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-import static com.home.practice4.methodParam;
+import static com.home.Day1.practice4.methodParam;
 
 
 /**
