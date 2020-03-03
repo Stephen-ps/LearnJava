@@ -82,8 +82,8 @@ public class Day2 {
         //字符串切割
         String st = "aaa,bbb,ccc";
         String[] arrayQieGe = st.split(",");
-        for (int i = 0; i < arrayQieGe.length; i++) {
-            System.out.println(arrayQieGe[i]);
+        for (String item: arrayQieGe) {
+            System.out.println(item);
         }
         System.out.println("=====================================");
 
@@ -97,10 +97,8 @@ public class Day2 {
         String st2 = "aaa.bbb.ccc";
         String[] arrayQieGe2 = st2.split("\\.");
         System.out.println("数组的长度为：" + arrayQieGe2.length);//3
-        for (int j = 0; j < arrayQieGe2.length; j++) {
-            System.out.println(arrayQieGe2[j]);
+        for (String value: arrayQieGe2) {
+            System.out.println(value);
         }
-
-
     }
 }
