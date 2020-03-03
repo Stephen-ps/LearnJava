@@ -1,4 +1,4 @@
-package com.home.Day1;
+package com.local.Day1;
 
 public class practice1 {
     private String name;

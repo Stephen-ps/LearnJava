@@ -1,4 +1,4 @@
-package com.home.Day2;
+package com.local.Day2;
 
 public class Day2 {
 
