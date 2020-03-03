@@ -60,7 +60,7 @@ public class Day1 {
 
         //practice3.Switch语句结合用户输入的结果选择练习
         int count = 10;
-        for (int i = 0; i <= count; i++) {
+        for (int i = 0; i <= count; i += 1) {
             switch (count) {
                 case 1:
                     System.out.println("Monday");
@@ -74,7 +74,6 @@ public class Day1 {
                     break;
             }
             // 如果还有下一个用户输入， 则打出用户输入时的关键字
-            while (userInput.hasNext()) {
                 String next = userInput.next();
                 System.out.println(next);
                 break;
@@ -138,10 +137,7 @@ public class Day1 {
             //打印集合
             System.out.println(smallList.size());
             System.out.println(smallList);
-
-////
         }
     }
-}
 
 
