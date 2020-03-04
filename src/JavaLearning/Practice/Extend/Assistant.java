@@ -1,6 +1,6 @@
 package JavaLearning.Practice.Extend;
 
-public class Assistant extends Employee {
+public class Assistant extends Teacher {
 
     public Assistant(String assistantName, int id, int age, String workType) {
 

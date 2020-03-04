@@ -9,13 +9,26 @@ public class Main {
 
     public static void main(String[] args) {
 
-
-        //测试了一下子类可以自己定义变量名称
+        //这部分为测试继承关系。
+        //测试了一下子类可以自己定义变量名称,并且子类不能直接get父类的变量
         ArrayList<Object> employeeDataList = new ArrayList<>();
+        /*Employee employee = new Employee("12312",1,12,"Math");
+        System.out.println(employee.getAge());*/
         Employee employee = new Employee();
-        Teacher teacher = new Teacher("Wang", 435451, 25, "Math  ");
+        employee.setAge(123213);
+        System.out.println("==============================================================");
+
+        Teacher teacher = new Teacher();
         Assistant assistant = new Assistant();
-        System.out.println(teacher.getName());
+        assistant.setAge(520);
+        System.out.println("==============================================================");
+        teacher.setAge(1000);
+        System.out.println("==============================================================");
+        System.out.println("Teacher 的年龄是：" + teacher.getAge());
+        System.out.println("==============================================================");
+        System.out.println("Assistant 的年龄是：" + teacher.getAge());
+        /*teacher.setName(employee.getName());*///不注释这段代码，输出结果为子类变量
+        /*Teacher teacher1 = new Teacher();*/
 
 
         /*for (int i = 0; i <= 1000; i++) {
