@@ -1,10 +1,12 @@
 package JavaLearning.Practice.CommonPractice;
 
+
 public class Student {
 
     private String name;
     private int age;
     private boolean male;
+
 
     public Student(String name, int age, boolean male) {
 

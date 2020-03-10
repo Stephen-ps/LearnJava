@@ -6,14 +6,18 @@ import java.util.Scanner;
 
 
 /**
- * this is for class main;
+ * The type Main.
+ *
+ * @Author: Steven
+ * @Date: 2020 -03-06 16:41:00.
  */
 public class Main {
 
+
     /**
-     * this is just for learning java;
+     * The entry point of application.
      *
-     * @param args is not used.
+     * @param args the input arguments.
      */
     public static void main(String[] args) {
 
@@ -137,7 +141,11 @@ public class Main {
         System.out.println(smallList);
 
 
+
+
     }
+
+    
 }
 
 

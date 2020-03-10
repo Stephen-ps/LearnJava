@@ -1,12 +1,23 @@
 package JavaLearning.Practice.Extend;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 
+/**
+ * The type Main.
+ *
+ * @Author: Steven
+ * @Date: 2020 -03-06 16:45:15.
+ */
 public class Main {
 
+
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments.
+     */
     public static void main(String[] args) {
 
         //这部分为测试继承关系。
@@ -17,9 +28,8 @@ public class Main {
         Employee employee = new Employee();
         employee.setAge(123213);
         System.out.println("==============================================================");
-
         Teacher teacher = new Teacher();
-        Assistant assistant = new Assistant();
+        /*Assistant assistant = new Assistant();
         assistant.setAge(520);
         System.out.println("==============================================================");
         teacher.setAge(1000);
@@ -27,17 +37,18 @@ public class Main {
         System.out.println("Teacher 的年龄是：" + teacher.getAge());
         System.out.println("==============================================================");
         System.out.println("Assistant 的年龄是：" + teacher.getAge());
+        System.out.println("args = " + Arrays.deepToString(args));*/
         /*teacher.setName(employee.getName());*///不注释这段代码，输出结果为子类变量
-        /*Teacher teacher1 = new Teacher();*/
+        /*Teacher teacher = new Teacher();*/
 
-
-        /*for (int i = 0; i <= 1000; i++) {
+        for (int i = 0; i <= 1000; i++) {
             Scanner scanner = new Scanner(System.in);
+
 
             System.out.println("请输入教师的姓名：");
             String teacherName = scanner.next();
-            employee.setName(teacherName);
-            employeeDataList.add(employee.getName());
+            teacher.setName(teacherName);
+            employeeDataList.add(teacher.getName());
             System.out.println(employeeDataList);
 
             System.out.println("请输入教师的年龄：");
@@ -57,10 +68,9 @@ public class Main {
             if (exit.equals("y")) {
                 break;
             }
-        }*/
-
+        }
 
         /*Employee employee = new Employee("asd",123,123,"asd");
-        System.out.println(employee.getAge());*/
+        System.out.println(employee.getAge()); */
     }
 }

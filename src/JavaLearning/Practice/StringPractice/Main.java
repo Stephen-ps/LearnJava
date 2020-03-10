@@ -1,11 +1,16 @@
 package JavaLearning.Practice.StringPractice;
 
 
+/**
+ * The type Main.
+ */
 //主要是关于字符串的学习
 public class Main {
 
     /**
-     * @param args is not used
+     * The entry point of application.
+     *
+     * @param args the input arguments.
      */
     public static void main(String[] args) {
         //对于引用类型来说， “==”进行的是地址的比较，一个新的对象地址会发生改变。

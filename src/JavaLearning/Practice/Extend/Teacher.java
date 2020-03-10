@@ -1,21 +1,46 @@
 package JavaLearning.Practice.Extend;
 
+/**
+ * The type Teacher.
+ *
+ * @Author: Steven
+ * @Date: 2020 -03-06 17:01:01.
+ */
 //员工的子类
 public class Teacher extends Employee {
 
-    /*private String teacherName;
+    private String teacherName;
     private int id;
     private int age;
-    private String workType;*/
+    private String workType;
 
-    public Teacher(String teacherName, int id, int age, String workType) {
+    /**
+     * Instantiates a new Teacher.
+     *
+     * @param name     the name.
+     * @param id       the id.
+     * @param age      the age.
+     * @param workType the work type.
+     */
+    public Teacher(String name, int id, int age, String workType) {
         //继承父类的成员变量
-        super(teacherName, age,id,workType);
+        super(name, age,id,workType);
     }
+
+    /**
+     * Instantiates a new Teacher.
+     */
     public Teacher() {
 
     }
-    /*public void setTeacherName(String teacherName) {
+
+    @Override
+    public void setWorkType(String workType) {
+
+        this.workType = workType;
+    }
+
+    public void setName(String teacherName) {
         this.teacherName = teacherName;
     }
     @Override
@@ -30,7 +55,7 @@ public class Teacher extends Employee {
         }
     }
 
-    public String getTeacherName() {
+    public String getName() {
 
         return teacherName;
     }
@@ -48,6 +73,6 @@ public class Teacher extends Employee {
     public String getWorkType() {
 
         return workType;
-    }*/
+    }
 }
 
